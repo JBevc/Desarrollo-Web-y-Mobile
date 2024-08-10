@@ -1,0 +1,28 @@
+body :nth-child(odd) {
+  background-color: palevioletred;
+  font-family: "Dejavu Sans";
+}
+
+#num2 {
+  color: blue;
+  font-size: 36px;
+}
+
+#num4 {
+  background-color: lightgreen;
+  font-weight: bold;
+}
+
+.masGrande {
+  font-size: 24px;
+}
+
+/* dejavu-sans-latin-400-normal */
+@font-face {
+  font-family: "DejaVu Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./files/dejavu-sans-latin-400-normal.woff2) format("woff2"),
+    url(./files/dejavu-sans-latin-400-normal.woff) format("woff");
+}
