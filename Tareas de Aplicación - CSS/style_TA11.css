@@ -1,6 +1,14 @@
+@font-face {
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+  font-style: normal;
+  font-display: auto;
+  src: url("./dejavu-sans-webfont.ttf") format("truetype")
+    url("./dejavu-sans-webfont.woff") format("woff");
+}
+
 body :nth-child(odd) {
   background-color: palevioletred;
-  font-family: "Dejavu Sans";
+  font-family: Verdana, "Dejavu Sans", sans-serif;
 }
 
 #num2 {
